@@ -1,0 +1,49 @@
+NAME
+    Pod::Weaver::Section::ReleaseDate - Add a RELEASE DATE section (from
+    package's $DATE)
+
+VERSION
+    version 0.01
+
+RELEASE DATE
+    2014-04-23
+
+SYNOPSIS
+    In your "weaver.ini":
+
+     [ReleaseDate]
+
+DESCRIPTION
+    This section plugin adds a RELEASE DATE section to Perl modules/scripts.
+    Release date is taken from module's $DATE package variable (extracted
+    using regexp) or, if not available, from the current date.
+
+
+SEE ALSO
+    Pod::Weaver::Section::Version
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Pod-Weaver-Section-ReleaseDate>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Pod-Weaver-Section-ReleaseDate>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Re
+    leaseDate>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
